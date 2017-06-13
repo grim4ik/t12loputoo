@@ -1,0 +1,82 @@
+ 	*{
+  		margin:0;
+  		padding:0;
+		font-family:Chisel_Mark;
+		text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+font-size:25px;		
+	}
+	
+	body{
+		background-image: url(images/Waves.gif);
+		-webkit-user-select: none; /*disable copying*/
+	}
+  	
+	/*SECTION INVISIBLE BACKGROUND*/
+  	section{
+		height:1000%; /*make as long as can*/
+		width:1080px; /*have space on sides*/
+		margin: 0 auto;
+		border: 1px solid black;
+		text-align:center;
+  	}
+	
+	/*HEADERSTYLE*/
+	header{
+  		width: 800px;
+		height:60px;
+		text-align:center;
+  		margin: 0px auto;
+		border:1px solid black;
+		border-radius: 5px;
+	}
+  	
+
+	/*TEXT FOR HEADER*/
+	h1.headertext{
+		font-size: 60px;
+	}
+	
+	/*ON HEADER TEXT*/
+	.menustyle{
+		background-color:#fff;
+		width: 800px;
+		margin: 0px auto;
+		border-radius: 8px;
+		border:1px solid black;
+	}
+	
+
+	
+	/*FOR UNDER HEADER MENU*/
+	table{
+		width:100%;
+		font-size:20px;
+		cursor:pointer;		
+	}
+	
+
+	
+		/*FAQ BLINK*/
+
+
+	A{ color: black;
+	text-decoration: none;}
+	A:visited{ color: black; }
+	A:active{ color: #000;}
+	
+	input[name="pagebutton"]{
+		cursor:pointer;
+		background-color:#000;
+		border: 1px solid black;
+		border-radius: 5px;
+		width:80px;
+		box-shadow: 0 6px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		font-family:Chisel_Mark;
+		font-size:20px;
+		text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	}
+	
+	 table.table1 th{
+		background-image:url(images/pattern.png);
+		border: 1px solid black;
+	 }
