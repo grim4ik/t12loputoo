@@ -1,13 +1,9 @@
 <?php 
 	require("../../config.php");
 	
-	// see fail peab olema siis seotud kõigiga kus
-	// tahame sessiooni kasutada
-	// saab kasutada nüüd $_SESSION muutujat
 	session_start();
 	
 	$database = "if16_kirikotk_4";
-	// functions.php
 	
 	function signup($email, $password, $name, $nimi) {
 		
